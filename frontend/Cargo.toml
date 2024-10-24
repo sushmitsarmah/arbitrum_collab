@@ -10,9 +10,12 @@ edition = "2021"
 serde = { version = "1.0.197", features = ["derive"] }
 
 dioxus = { version = "0.5", features = ["fullstack", "router"] }
+dioxus-free-icons = { version = "0.8", features = ["font-awesome-brands"] }
 
 # Debug
 dioxus-logger = "0.5.1"
+dioxus-hooks = "0.5.6"
+reqwest = "0.12.8"
 
 [features]
 default = []
